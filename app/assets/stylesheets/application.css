@@ -25,8 +25,6 @@ body {
 #single_room {
     height: calc(100vh - 150px);
     /*height: calc(80vh - 150px);*/
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 #messages {
@@ -62,7 +60,6 @@ body {
     word-wrap: break-word;
     width: fit-content;
     max-width: 40%;
-    padding: 5px;
     border-radius: 10px;
     margin-bottom: 10px;
     background-color: #555555;
